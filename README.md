@@ -9,7 +9,7 @@ Features
 💡 Cute and minimal design
 📱 Responsive layout (mobile friendly!)
 Live Demo
-## [🔗 Click here to view the site](https://github.com/Samriddhi-Roy/BreatheAI)
+## [🔗 Click here to view the site](https://Samriddhi-Roy.github.io/BreatheAI/)
 
 Tech Stack
 HTML5
