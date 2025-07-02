@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #fdfdfd, #eef2f3);
+  background: linear-gradient(to right, #fef6e4, #e0fbfc);
   overflow-x: hidden;
 }
 
@@ -17,10 +17,10 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #e1e1e1;
+  background: #dcdcdc;
 }
 ::-webkit-scrollbar-thumb {
-  background: #00bfa6;
+  background: #7f5af0;
   border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #ffffff;
+  background-color: #fffffe;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
@@ -40,7 +40,7 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #00bfa6;
+  color: #7f5af0;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul li {
   transition: color 0.3s;
 }
 nav ul li:hover {
-  color: #00bfa6;
+  color: #2cb67d;
 }
 
 /* Auth Buttons */
@@ -67,13 +67,13 @@ nav ul li:hover {
   padding: 8px 16px;
   border: none;
   border-radius: 20px;
-  background-color: #00bfa6;
+  background-color: #7f5af0;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
 .auth button:hover {
-  background-color: #009e8a;
+  background-color: #6941c6;
   transform: scale(1.05);
 }
 
@@ -119,27 +119,27 @@ nav ul li:hover {
   transform: scale(1.05);
 }
 .explore {
-  background-color: #ff6b6b;
+  background-color: #f25f4c;
   color: white;
 }
 .explore:hover {
-  background-color: #e25b5b;
+  background-color: #c1473a;
 }
 .practice {
-  background-color: #00bfa6;
+  background-color: #7f5af0;
   color: white;
 }
 .practice:hover {
-  background-color: #009e8a;
+  background-color: #6941c6;
 }
 
-/* Section styling remains the same */
+/* Sections */
 .section {
   padding: 60px 40px;
   text-align: center;
 }
 .section:nth-of-type(even) {
-  background-color: #f4f4f4;
+  background-color: #f0faff;
 }
 
 /* Cards and Grid Elements */
@@ -152,66 +152,66 @@ nav ul li:hover {
 }
 
 .subject-icon, .note-icon {
-  color: #00bfa6;
+  color: #2cb67d;
 }
 
 .view-all-btn {
-  background-color: #00bfa6;
+  background-color: #7f5af0;
   color: white;
 }
 .view-all-btn:hover {
-  background-color: #009e8a;
+  background-color: #6941c6;
   transform: scale(1.05);
 }
 
 .note-subject {
-  color: #00bfa6;
+  color: #2cb67d;
 }
 
 .download-btn {
-  background-color: #00bfa6;
+  background-color: #7f5af0;
 }
 .download-btn:hover {
-  background-color: #009e8a;
+  background-color: #6941c6;
 }
 
 .stars {
-  color: #ffc107;
+  color: #ffd803;
 }
 
 /* CTA Section */
 .cta-section {
-  background: #00bfa6;
+  background: #2cb67d;
   color: white;
 }
 .cta-section button {
-  background-color: #ffffff;
-  color: #00bfa6;
+  background-color: #fffffe;
+  color: #2cb67d;
 }
 .cta-section button:hover {
-  background-color: #e6f9f7;
+  background-color: #defee9;
   transform: scale(1.05);
 }
 
 /* Footer */
 .site-footer {
-  background-color: #1f1f2e;
-  color: #eee;
+  background-color: #16161a;
+  color: #fffffe;
 }
 .footer-section h3 {
-  color: #fff;
+  color: #fffffe;
 }
 .footer-section ul li a:hover {
-  color: #00bfa6;
+  color: #7f5af0;
 }
 .logo-section .logo {
-  color: #00bfa6;
+  color: #7f5af0;
 }
 .footer-links a:hover {
-  color: #00bfa6;
+  color: #7f5af0;
 }
 
-/* Responsive media queries stay unchanged */
+/* Responsive media queries */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
