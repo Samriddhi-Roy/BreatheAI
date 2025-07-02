@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #fef6e4, #e0fbfc);
+  background: linear-gradient(to right, #fdfdfd, #eef2f3);
   overflow-x: hidden;
 }
 
@@ -17,10 +17,10 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #dcdcdc;
+  background: #e1e1e1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7f5af0;
+  background: #00bfa6;
   border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #fffffe;
+  background-color: #ffffff;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
@@ -40,7 +40,7 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #7f5af0;
+  color: #00bfa6;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul li {
   transition: color 0.3s;
 }
 nav ul li:hover {
-  color: #2cb67d;
+  color: #00bfa6;
 }
 
 /* Auth Buttons */
@@ -67,13 +67,13 @@ nav ul li:hover {
   padding: 8px 16px;
   border: none;
   border-radius: 20px;
-  background-color: #7f5af0;
+  background-color: #00bfa6;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
 .auth button:hover {
-  background-color: #6941c6;
+  background-color: #009e8a;
   transform: scale(1.05);
 }
 
@@ -119,27 +119,27 @@ nav ul li:hover {
   transform: scale(1.05);
 }
 .explore {
-  background-color: #f25f4c;
+  background-color: #ff6b6b;
   color: white;
 }
 .explore:hover {
-  background-color: #c1473a;
+  background-color: #e25b5b;
 }
 .practice {
-  background-color: #7f5af0;
+  background-color: #00bfa6;
   color: white;
 }
 .practice:hover {
-  background-color: #6941c6;
+  background-color: #009e8a;
 }
 
-/* Sections */
+/* Section styling remains the same */
 .section {
   padding: 60px 40px;
   text-align: center;
 }
 .section:nth-of-type(even) {
-  background-color: #f0faff;
+  background-color: #f4f4f4;
 }
 
 /* Cards and Grid Elements */
@@ -152,66 +152,66 @@ nav ul li:hover {
 }
 
 .subject-icon, .note-icon {
-  color: #2cb67d;
+  color: #00bfa6;
 }
 
 .view-all-btn {
-  background-color: #7f5af0;
+  background-color: #00bfa6;
   color: white;
 }
 .view-all-btn:hover {
-  background-color: #6941c6;
+  background-color: #009e8a;
   transform: scale(1.05);
 }
 
 .note-subject {
-  color: #2cb67d;
+  color: #00bfa6;
 }
 
 .download-btn {
-  background-color: #7f5af0;
+  background-color: #00bfa6;
 }
 .download-btn:hover {
-  background-color: #6941c6;
+  background-color: #009e8a;
 }
 
 .stars {
-  color: #ffd803;
+  color: #ffc107;
 }
 
 /* CTA Section */
 .cta-section {
-  background: #2cb67d;
+  background: #00bfa6;
   color: white;
 }
 .cta-section button {
-  background-color: #fffffe;
-  color: #2cb67d;
+  background-color: #ffffff;
+  color: #00bfa6;
 }
 .cta-section button:hover {
-  background-color: #defee9;
+  background-color: #e6f9f7;
   transform: scale(1.05);
 }
 
 /* Footer */
 .site-footer {
-  background-color: #16161a;
-  color: #fffffe;
+  background-color: #1f1f2e;
+  color: #eee;
 }
 .footer-section h3 {
-  color: #fffffe;
+  color: #fff;
 }
 .footer-section ul li a:hover {
-  color: #7f5af0;
+  color: #00bfa6;
 }
 .logo-section .logo {
-  color: #7f5af0;
+  color: #00bfa6;
 }
 .footer-links a:hover {
-  color: #7f5af0;
+  color: #00bfa6;
 }
 
-/* Responsive media queries */
+/* Responsive media queries stay unchanged */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
